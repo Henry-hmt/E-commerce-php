@@ -1,0 +1,156 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    background-color: #495057;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.nav-button:hover {
+    background-color: #6c757d;
+}
+
+.navbar-alternar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 200%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    background-color: #6c757d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: none;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropdown-toggle:focus + .dropdown-menu {
+    display: block;
+  }
+  
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+    overflow-x: hidden;
+    transition: left 0.3s ease;
+    padding-top: 20px;
+}
+
+.sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 10px 0;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+}
+
+.sidebar.show {
+    left: 0;
+}
+
+
+.titulo-link {
+    text-decoration: none;
+    color: #007BFF; 
+    font-weight: bold; 
+}
+
+.titulo-link:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+}
+
+
+
+
+
+
+/* Carrossel, ajeitar o tamanho da imagem depois */
+
+
+
